@@ -5,6 +5,7 @@ from matplotlib.ticker import (MultipleLocator, AutoMinorLocator)
 
 #read the fundamental state component
 xfile = open('psi_free.txt','r')
+#pippo
 psi = []
 for line in xfile:
     a,b= line.strip().strip('()').split(',')
